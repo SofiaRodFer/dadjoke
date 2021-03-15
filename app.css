@@ -80,3 +80,7 @@ span {
     transform: translateY(-0.20em);
     cursor: pointer;
   }
+
+.joke-section {
+    height: 5.5rem;
+}
