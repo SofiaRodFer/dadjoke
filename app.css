@@ -1,0 +1,82 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    /* background-color: orange; */
+}
+
+h1 {
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.container {
+    background-color: white;
+    text-align: center;
+    width: 25%;
+    height: 20%;
+    margin: auto;
+    padding: 6rem 5rem 4rem 5rem;
+    text-align: center;
+    position: absolute;
+    justify-content: center;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    transition: box-shadow 0.25s, border-color 0.08s;
+}
+
+.container:hover {
+    border: 2px solid black;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);;
+}
+
+.generate {
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 1rem;
+    background-color: white;
+    background: none;
+    color: black;
+    border: 2px solid white;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
+}
+
+.generate:hover {
+    border-color: black;
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em grey;
+    transform: translateY(-0.20em);
+    cursor: pointer;
+  }
